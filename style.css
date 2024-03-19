@@ -18,19 +18,16 @@ body {
 }
 
 .container {
-  width: 383px;
-  height: 522px;
+  width: 23.938rem;
   background-color: #fff;
   border-radius: 20px;
   margin-inline: auto;
-  padding: 24px;
-  margin-top: 218px;
+  padding: 1.5em;
+  margin-top: 13.625rem;
   border: solid 1px black;
-  box-shadow: 9px 8px black;
+  box-shadow: 0.563rem 0.5rem black;
 }
 
-/* image */
-/* image */
 /* image */
 
 .logo {
@@ -39,12 +36,10 @@ body {
 }
 
 .picture {
-  width: 100px;
-  height: 100px;
+  width: 2em;
+  height: 2em;
 }
 
-/* image */
-/* image */
 /* image */
 
 .learning {
@@ -52,40 +47,45 @@ body {
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  padding: 6px;
-  width: 80px;
+  padding: 0.375em;
+  width: 5rem;
   font-size: 0.875em;
   font-weight: 800;
-  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+
+.date,
+h1,
+p {
+  margin-top: 0.75em;
 }
 
 .date {
-  margin-top: 12px;
   font-size: 0.875em;
   font-weight: 500;
 }
 
 h1 {
-  margin-top: 12px;
   font-size: 1.5em;
   font-weight: 800;
 }
 
 p {
-  margin-top: 12px;
   color: var(--gray);
   font-size: 1em;
 }
 
 .author {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   font-weight: 800;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75em;
 }
+  
 
-.picture {
-    width: 32px;
-    height: 32px;
-}
+@media only screen and (max-width: 383px) {
+    .container {
+            margin-top: 50px;       
+    }
+  }
