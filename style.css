@@ -15,15 +15,17 @@ html {
 }
 body {
   font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   width: 23.938rem;
   background-color: #fff;
   border-radius: 20px;
-  margin-inline: auto;
   padding: 1.5em;
-  margin-top: 13.625rem;
   border: solid 1px black;
   box-shadow: 0.563rem 0.5rem black;
 }
@@ -82,10 +84,9 @@ p {
   align-items: center;
   gap: 0.75em;
 }
-  
 
 @media only screen and (max-width: 383px) {
-    .container {
-            margin-top: 50px;       
-    }
+  .container {
+    margin-top: 50px;
   }
+}
